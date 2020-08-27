@@ -1,0 +1,1 @@
+# This project's purpose is to generate config files for F5 BIG-IP that can be loaded in from TMSH but that are generated programmatically using Jinja Templates based on an input yaml file called systems.yaml that contains information on each system that will be generated

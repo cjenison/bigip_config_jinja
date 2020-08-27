@@ -1,0 +1,34 @@
+systems:
+  - name: sfo.example.com
+    location: SFO
+    tacacs_secret: bigipsecret1
+    name_server: 10.1.1.53
+    management_ip: 10.1.1.245/23
+    management_gw: 10.1.1.254
+    ntp_servers: 1.1.1.1
+    smtp_from_address: admin@sfo.example.com
+    snmp_allowed_addresses: 10.1.1.0/24
+    snmp_trap_dest_name: sfo_trap
+    snmp_trap_dest_ip: 10.1.1.14
+  - name: msp.example.com
+    location: MSP
+    tacacs_secret: bigipsecret1
+    name_server: 10.1.2.53
+    management_ip: 10.1.2.245/23
+    management_gw: 10.1.2.254
+    ntp_servers: 1.1.2.1
+    smtp_from_address: admin@msp.example.com
+    snmp_allowed_addresses: 10.1.2.0/24
+    snmp_trap_dest_name: msp_trap
+    snmp_trap_dest_ip: 10.1.2.14
+  - name: aus.example.com
+    location: AUS
+    tacacs_secret: bigipsecret1
+    name_server: 10.1.3.53
+    management_ip: 10.1.3.245/23
+    management_gw: 10.1.3.254
+    ntp_servers: 1.1.3.1
+    smtp_from_address: admin@aus.example.com
+    snmp_allowed_addresses: 10.1.3.0/24
+    snmp_trap_dest_name: aus_trap
+    snmp_trap_dest_ip: 10.1.3.14
